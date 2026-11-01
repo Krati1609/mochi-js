@@ -2,7 +2,7 @@
 
 a tiny javascript interpreter, built from scratch because i wanted to know how the magic actually works.
 
-no babel, no acorn, no "just use a library". just me, a text editor, and way too much chai.
+no babel, no acorn, no "just use a library". just me, a text editor, and way too much coffee.
 
 > status: just started. things are probably broken. that's the vibe.
 
@@ -16,7 +16,7 @@ mochi takes a small slice of JavaScript, chops it into tokens, turns those into 
 source code  →  lexer  →  parser  →  AST  →  evaluator  →  output
 ```
 
-1. **lexer**: reads the raw text and spits out tokens
+1. **lexer**: reads the raw text and gives out tokens
 2. **parser**: turns tokens into an AST
 3. **evaluator**: walks the AST and runs it
 
@@ -64,7 +64,7 @@ Development is split into phases. Each phase builds on the one before it.
 
 ## running it
 
-not yet, nothing to run lol. will update this when there is.
+not yet, nothing to run. will update this when there is.
 
 ## what i'm learning
 
