@@ -8,7 +8,7 @@ no babel, no acorn, no "just use a library". just me, a text editor, and way too
 
 ## what is this
 
-mochi takes a small slice of JavaScript, chops it into tokens, turns those into a tree, and then walks the tree to actually run it. it's a toy, not a replacement for V8 (lol), but it's mine and i understand every line.
+mochi takes a small slice of JavaScript, chops it into tokens, turns those into a tree, and then walks the tree to actually run it. it's a toy, not a replacement for V8 (lol), but every stage is small enough to poke at, break, and learn from.
 
 ## how it works (the plan)
 
